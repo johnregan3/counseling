@@ -1,0 +1,155 @@
+/*
+ * Custom Styles for Summit Counseling Services
+ * @author John Regan
+ * @author_url johnregan3.com
+ *
+ */
+
+@import "compass/reset";
+@import "business-frontpage.css";
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,700|Volkhov:400,700);
+
+$dkblue : #45768E;
+$dkblue_border : #296786;
+$ltblue : #3CA0D1;
+$blue   : #096EA2;
+$grblue : #245D7A;
+
+/* Base Styles */
+
+body {
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	line-height: 1.5em;
+	font-size: 18px;
+	padding-top: 0;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Volkhov', Times, Times New Roman, serif;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 2.5em;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 1.5em;
+	line-height: 1.7em;
+}
+
+h3 {
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+p {
+	margin-bottom: 0.8em;
+}
+
+strong {
+	font-weight: 700;
+}
+
+em {
+	font-style: italic;
+
+	&.gray {
+		color: #aaa;
+	}
+}
+
+a {
+	color: $ltblue;
+	transition: color 0.2s ease;
+
+	&:hover {
+		color: $blue;
+		text-decoration: none;
+		transition: color 0.2s ease;
+	}
+}
+
+.header {
+	background-image: url('../images/mountain.jpg');
+
+	.container, .row, .col-lg-12 {
+		height: 100%;
+		position: relative;
+	}
+
+	.tagline {
+		margin: auto;
+		position: absolute;
+		text-align: center;
+		width: 100%;
+		height: 1em;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+	}
+}
+
+.container {
+	.row {
+		margin: 2em 0;
+	}
+
+	footer {
+		font-size: 14px;
+		font-weight: 300;
+
+		a {
+			color: #fff;
+			&:hover {
+				color: #ddd;
+			}
+		}
+		.row {
+			padding-top: 1em;
+			margin: 0 15px;
+		}
+	}
+}
+
+.container-fluid.footer {
+	background: $dkblue;
+	color: #fff;
+	border-top: 1px solid
+}
+
+.cta {
+	background: $dkblue;
+	color: #fff;
+	border: 1px solid $dkblue_border;
+	transition: background-color 0.2s ease;
+
+	&:hover {
+		background: $blue;
+		color: #fff;
+		border: 1px solid $dkblue_border;
+		transition: background-color 0.2s ease;
+	}
+}
+
+.widget-title {
+	margin-bottom: 0.5em;
+}
+
+
+ul {
+	li {
+		line-height: 2em;
+		&:before {
+			content: "· ";
+			display: inline-block;
+			margin-right: 0.7em;
+			font-size: .7em;
+			font-weight: 700;
+		}
+	}
+}

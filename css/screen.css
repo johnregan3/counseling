@@ -1,0 +1,223 @@
+@charset "UTF-8";
+/*
+ * Custom Styles for Summit Counseling Services
+ * @author John Regan
+ * @author_url johnregan3.com
+ *
+ */
+@import url(business-frontpage.css);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,700|Volkhov:400,700);
+/* line 17, ../../../../LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* Base Styles */
+/* line 21, ../sass/screen.scss */
+body {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.5em;
+  font-size: 18px;
+  padding-top: 0;
+}
+
+/* line 29, ../sass/screen.scss */
+h1, h2, h3, h4 {
+  font-family: 'Volkhov', Times, Times New Roman, serif;
+  font-weight: 700;
+}
+
+/* line 34, ../sass/screen.scss */
+h1 {
+  font-size: 2.5em;
+  font-weight: 400;
+}
+
+/* line 39, ../sass/screen.scss */
+h2 {
+  font-size: 1.5em;
+  line-height: 1.7em;
+}
+
+/* line 44, ../sass/screen.scss */
+h3 {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+/* line 49, ../sass/screen.scss */
+p {
+  margin-bottom: 0.8em;
+}
+
+/* line 53, ../sass/screen.scss */
+strong {
+  font-weight: 700;
+}
+
+/* line 57, ../sass/screen.scss */
+em {
+  font-style: italic;
+}
+/* line 60, ../sass/screen.scss */
+em.gray {
+  color: #aaa;
+}
+
+/* line 65, ../sass/screen.scss */
+a {
+  color: #3ca0d1;
+  transition: color 0.2s ease;
+}
+/* line 69, ../sass/screen.scss */
+a:hover {
+  color: #096ea2;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+/* line 76, ../sass/screen.scss */
+.header {
+  background-image: url("../images/mountain.jpg");
+}
+/* line 79, ../sass/screen.scss */
+.header .container, .header .row, .header .col-lg-12 {
+  height: 100%;
+  position: relative;
+}
+/* line 84, ../sass/screen.scss */
+.header .tagline {
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 1em;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* line 98, ../sass/screen.scss */
+.container .row {
+  margin: 2em 0;
+}
+/* line 102, ../sass/screen.scss */
+.container footer {
+  font-size: 14px;
+  font-weight: 300;
+}
+/* line 106, ../sass/screen.scss */
+.container footer a {
+  color: #fff;
+}
+/* line 108, ../sass/screen.scss */
+.container footer a:hover {
+  color: #ddd;
+}
+/* line 112, ../sass/screen.scss */
+.container footer .row {
+  padding-top: 1em;
+  margin: 0 15px;
+}
+
+/* line 119, ../sass/screen.scss */
+.container-fluid.footer {
+  background: #45768e;
+  color: #fff;
+  border-top: 1px solid;
+}
+
+/* line 125, ../sass/screen.scss */
+.cta {
+  background: #45768e;
+  color: #fff;
+  border: 1px solid #296786;
+  transition: background-color 0.2s ease;
+}
+/* line 131, ../sass/screen.scss */
+.cta:hover {
+  background: #096ea2;
+  color: #fff;
+  border: 1px solid #296786;
+  transition: background-color 0.2s ease;
+}
+
+/* line 139, ../sass/screen.scss */
+.widget-title {
+  margin-bottom: 0.5em;
+}
+
+/* line 145, ../sass/screen.scss */
+ul li {
+  line-height: 2em;
+}
+/* line 147, ../sass/screen.scss */
+ul li:before {
+  content: "· ";
+  display: inline-block;
+  margin-right: 0.7em;
+  font-size: .7em;
+  font-weight: 700;
+}
