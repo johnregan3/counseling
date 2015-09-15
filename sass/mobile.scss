@@ -1,0 +1,74 @@
+@media (max-width: 845px) {
+
+  .hide-mobile {
+    display: none;
+  }
+
+  .hide-desktop {
+    display: block;
+  }
+
+  .bg-gray.bordered {
+    border-left: none;
+    border-top: 1px solid #eee;
+
+    .widget-center {
+      padding-left: 0;
+      padding-top: 2em;
+    }
+  }
+
+  .float-left {
+    display: block;
+  }
+
+  .btn.btn-default.btn-lg.cta.phone {
+    max-width: 100%;
+    white-space: normal;
+    text-align: center;
+    margin-bottom: 3em;
+
+    i {
+      display: block;
+
+      &.glyphicon-menu-right {
+        display: none;
+      }
+    }
+
+    span {
+      padding: 0.5em 0;
+      display: inline-block;
+    }
+  }
+
+  .widget-left {
+    margin-bottom: 2em;
+  }
+
+  .widget-right {
+    padding-top: 0;
+    padding-left: 0;
+
+    h3 {
+      display: none;
+    }
+  }
+
+  .headshot {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+
+    img {
+      width: 120px;
+    }
+  }
+
+  footer {
+    a {
+      display: block;
+    }
+  }
+}
